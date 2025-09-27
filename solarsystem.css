@@ -199,11 +199,7 @@
 }
 
 .saturn{
-<<<<<<< HEAD
     background-image: url("saturn.png");
-=======
-    background-image: url("Saturn.png");
->>>>>>> ddbc0577add186986d90750d917d2d6e6c4fb405
     top: 43%;
     right: 43%;
     width: 55px;

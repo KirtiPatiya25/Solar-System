@@ -199,11 +199,11 @@
 }
 
 .saturn{
-    background-image: url("Saturn.webp");
-    top: 45%;
-    right: 45%;
-    width: 80px;
-    height: 80px;
+    background-image: url("Saturn.png");
+    top: 43%;
+    right: 43%;
+    width: 55px;
+    height: 55px;
     background-size: cover;
     position: absolute;
     border-radius: 50%;
@@ -222,10 +222,10 @@
 }
 @keyframes saturn-orbit {
     from{
-        transform: rotate(0deg) translateX(270px) rotate(0deg);
+        transform: rotate(0deg) translateX(260px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(270px) rotate(-360deg);
+        transform: rotate(360deg) translateX(260px) rotate(-360deg);
     }
 }
 
@@ -239,7 +239,7 @@
     position: absolute;
     border-radius: 50%;
     border-width: 0.1em 0.1em 0 0;
-    animation: uranus-orbit 100s linear infinite;
+    animation: uranus-orbit 80s linear infinite;
 }
 .uranus-outline{
     border-radius: 50%;
@@ -253,10 +253,10 @@
 }
 @keyframes uranus-orbit {
     from{
-        transform: rotate(0deg) translateX(280px) rotate(0deg);
+        transform: rotate(0deg) translateX(275px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(280px) rotate(-360deg);
+        transform: rotate(360deg) translateX(275px) rotate(-360deg);
     }
 }
 
@@ -270,7 +270,7 @@
     position: absolute;
     border-radius: 50%;
     border-width: 0.1em 0.1em 0 0;
-    animation: neptune-orbit 150s linear infinite;
+    animation: neptune-orbit 100s linear infinite;
 }
 .neptune-outline{
     border-radius: 50%;
@@ -284,9 +284,9 @@
 }
 @keyframes neptune-orbit {
     from{
-        transform: rotate(0deg) translateX(370px) rotate(0deg);
+        transform: rotate(0deg) translateX(355px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(370px) rotate(-360deg);
+        transform: rotate(360deg) translateX(355px) rotate(-360deg);
     }
 }
